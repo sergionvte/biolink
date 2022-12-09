@@ -8,8 +8,14 @@ body, html {
 
 body {
   background: url(./images/background.jpg)
-  repeat center center fixed;
+    repeat center center fixed;
   background-size: cover;
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -65,7 +71,7 @@ ul > li {
   -webkit-backdrop-filter: 
     blur(10px) saturate(160%) contrast(180%);
   border-radius: 10em;
-  padding: 1em;
+  padding: 1em 5em;
   margin: 1.4em 0;
   box-shadow: #282828 0px 2px 8px 1px;
 }
@@ -96,11 +102,12 @@ ul > li > a > img {
     align-items: center;
   }
   ul > li {
-    width: 28em;
+    width: 18em;
   }
 
   body {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
   }
