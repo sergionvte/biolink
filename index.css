@@ -96,7 +96,12 @@ ul > li > a > img {
     align-items: center;
   }
   ul > li {
-    width: 30em;
+    width: 28em;
   }
 
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
