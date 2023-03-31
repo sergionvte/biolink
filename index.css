@@ -38,7 +38,7 @@ header > img {
   border-radius: 100%;
   border: 1px solid #fff;
   box-shadow: #282828 0px 2px 8px 1px;
-  margin: 0 0 10px 0; 
+  margin: 0 0 10px 0;
 }
 
 header > h1 {
@@ -51,9 +51,9 @@ header > h1 {
   border: 1px solid #fffa;
   color: #fff;
   margin: 0 auto;
-  backdrop-filter: 
+  backdrop-filter:
     blur(10px) saturate(160%) contrast(180%);
-  -webkit-backdrop-filter: 
+  -webkit-backdrop-filter:
     blur(10px) saturate(160%) contrast(180%);
 }
 
@@ -65,9 +65,9 @@ ul {
 
 ul > li {
   background-color: #fffa;
-  backdrop-filter: 
+  backdrop-filter:
     blur(10px) saturate(160%) contrast(180%);
-  -webkit-backdrop-filter: 
+  -webkit-backdrop-filter:
     blur(10px) saturate(160%) contrast(180%);
   border-radius: 10em;
   padding: 1em 5em;
