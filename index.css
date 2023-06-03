@@ -7,7 +7,7 @@ body, html {
 }
 
 body {
-  background: url(./images/background_2.jpg)
+  background: url(./images/background.jpg)
     repeat center center fixed;
   background-size: cover;
 
@@ -64,7 +64,7 @@ ul {
 }
 
 ul > li {
-  background-color: #8f8f8f;
+  background-color: #fffa;
   backdrop-filter:
     blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter:
